@@ -12,6 +12,7 @@ body{
 header{
     background-color: white;
     height: 90px;
+    margin-bottom: 65px;
 }
 
 h1{
@@ -25,4 +26,100 @@ h1{
     vertical-align: middle;
     width: 86px;
     padding: 10px 0px 10px 20px;
+}
+
+/* Main style */
+.lightblue-button{
+    background-color: #41a9e8;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    width: 88px;
+    height: 38px;
+    margin: 23px 2px 10px 82px;
+}
+
+.white-button{
+    background-color: white;
+    color: lightgray;
+    border-radius: 5px;
+    border: 2px solid lightgray;
+    width: 105px;
+    height: 38px;
+    margin-left: 5px;
+}
+
+.button-container{
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.list{
+    margin-bottom: 51px;
+}
+
+.list-container{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+    padding: 46px 0px 46px 82px;
+}
+
+.title-img{
+    vertical-align: baseline;
+    font-size: 15px;
+}
+
+.title-text{
+    font-size: 30px;
+    font-weight: bolder;
+    vertical-align: baseline;
+}
+
+.list-item{
+    margin: 19px 0px 0px 0px;
+}
+
+.item-img-tick{
+    color: green;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1.5px solid green;
+    border-radius: 50%;
+    padding: 1px 0px 0px 4px;
+    font-size: 12px;
+}
+
+.item-img-cross{
+    color: red;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1.5px solid red;
+    border-radius: 50%;
+    padding: 1px 0px 0px 4px;
+    font-size: 12px;
+}
+
+.item-text{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px 6px;
+}
+
+.sticker{
+    display: inline-block;    
+    color: white;
+    width: 79px;
+    height: 26px;
+    border-radius: 21px;
+    padding-top: 6px;
+    font-size: 14px;
+    vertical-align: middle;
+    text-align: center;
 }
