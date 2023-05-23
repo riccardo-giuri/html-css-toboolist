@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f6f8f9;
+}
+
+/* Header style */
+header{
+    background-color: white;
+    height: 90px;
+}
+
+h1{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#logo-img{
+    vertical-align: middle;
+    width: 86px;
+    padding: 10px 0px 10px 20px;
+}
